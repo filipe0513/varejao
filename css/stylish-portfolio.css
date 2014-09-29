@@ -16,6 +16,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+a {
+    color: #00aeef;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -165,12 +169,15 @@ hr.small {
     -o-background-size: cover;
 }
 
-.header .varejao-logo {
+.varejao-logo {
     background: url('../img/varejao-do-viraceiro-logo.png') top right no-repeat;
+    margin: auto;
+}
+
+.header .varejao-logo {
     background-size:  336px 158px;
     width: 387px;
     height: 158px;
-    margin: auto;
 }
 /* About */
 
@@ -182,6 +189,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background: #00aeef;
 }
 
 .service-item {
@@ -251,6 +259,16 @@ hr.small {
 .map {
     height: 400px;
 }
+
+/* Footer */
+
+footer .varejao-logo {
+    background-size:  187px 88px;
+    width: 226px;
+    height: 88px;
+    margin-bottom: 10px;
+}
+
 
 @media(max-width:768px) {
     .map {
